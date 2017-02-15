@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component
 @Component
 class OperationTypeReader {
     Map<String, OperationType> readTypesFromFilesystem() {
-        [:]
+        [
+                "ONE": new OperationType(),
+                "TWO": new OperationType(),
+                "THREE": new OperationType()
+        ]
     }
 }
