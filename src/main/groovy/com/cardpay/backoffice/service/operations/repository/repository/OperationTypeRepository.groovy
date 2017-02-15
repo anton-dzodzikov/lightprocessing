@@ -26,7 +26,7 @@ class OperationTypeRepository {
     }
 
     List<OperationType> getAllTypes() {
-        operationTypes.values()
+        operationTypes.values().asList()
     }
 
     OperationType getByName(String name) {
