@@ -1,0 +1,6 @@
+{
+    "description": "Returns greeting string",
+    "language": "Groovy",
+    "executable": true,
+    "restartable": false
+}

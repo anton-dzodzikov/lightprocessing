@@ -1,0 +1,6 @@
+{
+    "description": "Returns an array of numbers",
+    "language": "Groovy",
+    "executable": true,
+    "restartable": false
+}
