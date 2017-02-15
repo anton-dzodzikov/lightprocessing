@@ -6,3 +6,6 @@ Service for operation types storing
 
 ### Build JAR
 <pre>gradle clean build</pre>
+
+### Run JAR
+<pre>java -jar build/libs/operations-repository-1.0-SNAPSHOT.jar</pre>
