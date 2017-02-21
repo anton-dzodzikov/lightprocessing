@@ -4,8 +4,8 @@ buildscript {
     }
 }
 
-apply plugin: 'groovy'
-apply plugin: 'org.springframework.boot'
+apply plugin: "groovy"
+apply plugin: "org.springframework.boot"
 
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.8"
