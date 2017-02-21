@@ -5,10 +5,10 @@ Service for operation types storing
 ## Build and run
 
 ### Build JAR
-<pre>gradle clean build</pre>
+<pre>gradlew clean build</pre>
 
 ### Run JAR
-<pre>java -jar build/libs/operations-repository-1.0-SNAPSHOT.jar</pre>
+<pre>java -jar build/libs/lightprocessing-0.0.1.jar</pre>
 
 ## Run via Gradle
-<pre>gradle bootRun</pre>
+<pre>gradlew bootRun</pre>
