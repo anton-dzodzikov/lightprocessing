@@ -1,6 +1,6 @@
-# Operation Repository
+# Lightprocessing Framework
 
-Service for operation types storing
+Framework for operations processing
 
 ## Build and run
 
