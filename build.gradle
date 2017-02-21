@@ -1,4 +1,8 @@
 buildscript {
+    repositories {
+        mavenCentral()
+    }
+
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
     }
@@ -6,6 +10,10 @@ buildscript {
 
 apply plugin: "groovy"
 apply plugin: "org.springframework.boot"
+
+repositories {
+    mavenCentral()
+}
 
 dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.8"
