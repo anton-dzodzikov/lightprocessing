@@ -1,3 +1,6 @@
 rootProject.name='lightprocessing'
+
 group=org.lightprocessing
 version=0.0.1
+
+java.runtime.version=1.8
