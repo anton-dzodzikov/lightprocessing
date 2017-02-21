@@ -1,4 +1,4 @@
-package com.cardpay.backoffice.service.operations.repository.api.response
+package solutions.lightprocessing.api.response
 
 class ExceptionResult {
     Status status = Status.FAILURE

@@ -1,10 +1,10 @@
-package com.cardpay.backoffice.service.operations.repository.repository
+package solutions.lightprocessing.repository
 
-import com.cardpay.backoffice.service.operations.repository.domain.OperationType
-import com.cardpay.backoffice.service.operations.repository.reader.OperationTypeReader
+import solutions.lightprocessing.domain.OperationType
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
+import solutions.lightprocessing.reader.OperationTypeReader
 
 import javax.annotation.PostConstruct
 

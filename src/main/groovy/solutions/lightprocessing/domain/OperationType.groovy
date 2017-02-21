@@ -1,4 +1,4 @@
-package com.cardpay.backoffice.service.operations.repository.domain
+package solutions.lightprocessing.domain
 
 class OperationType {
     String name

@@ -1,6 +1,6 @@
-package com.cardpay.backoffice.service.operations.repository.reader
+package solutions.lightprocessing.reader
 
-import com.cardpay.backoffice.service.operations.repository.domain.OperationType
+import solutions.lightprocessing.domain.OperationType
 import groovy.json.JsonSlurper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.core.io.ResourceLoader

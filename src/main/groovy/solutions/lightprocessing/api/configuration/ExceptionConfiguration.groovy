@@ -1,9 +1,9 @@
-package com.cardpay.backoffice.service.operations.repository.api.configuration
+package solutions.lightprocessing.api.configuration
 
-import com.cardpay.backoffice.service.operations.repository.api.response.ExceptionResult
 import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.ResponseBody
+import solutions.lightprocessing.api.response.ExceptionResult
 
 @ControllerAdvice
 class ExceptionConfiguration {

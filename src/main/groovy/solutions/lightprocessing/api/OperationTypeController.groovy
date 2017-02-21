@@ -1,12 +1,12 @@
-package com.cardpay.backoffice.service.operations.repository.api
+package solutions.lightprocessing.api
 
-import com.cardpay.backoffice.service.operations.repository.api.response.SingleResult
-import com.cardpay.backoffice.service.operations.repository.repository.OperationTypeRepository
+import solutions.lightprocessing.api.response.SingleResult
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseBody
+import solutions.lightprocessing.repository.OperationTypeRepository
 
 @Controller
 @RequestMapping("api/operations")
