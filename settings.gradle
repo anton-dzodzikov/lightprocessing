@@ -1,1 +1,3 @@
-rootProject.name = 'lightprocessing'
+rootProject.name='lightprocessing'
+group=org.lightprocessing
+version=0.0.1
