@@ -1,1 +1,4 @@
-rootProject.name="lightprocessing"
+rootProject.name = "lightprocessing"
+include "executor"
+include "storage-fs"
+

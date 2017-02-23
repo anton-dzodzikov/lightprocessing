@@ -1,10 +1,10 @@
-package solutions.lightprocessing.repository
+package solutions.lightprocessing.storage.fs.repository
 
-import solutions.lightprocessing.domain.OperationType
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import solutions.lightprocessing.reader.OperationTypeReader
+import solutions.lightprocessing.storage.fs.domain.OperationType
+import solutions.lightprocessing.storage.fs.reader.OperationTypeReader
 
 import javax.annotation.PostConstruct
 

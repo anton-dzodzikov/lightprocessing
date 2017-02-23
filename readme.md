@@ -2,13 +2,8 @@
 
 Framework for operations processing
 
-## Build and run
+## Filesystem storage
 
-### Build JAR
-<pre>gradlew clean build</pre>
+### Create JAR
 
-### Run JAR
-<pre>java -jar build/libs/lightprocessing-0.0.1.jar</pre>
-
-## Run via Gradle
-<pre>gradlew bootRun</pre>
+<pre>gradlew :storage-fs:jar</pre>

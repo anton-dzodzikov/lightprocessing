@@ -1,10 +1,10 @@
-package solutions.lightprocessing.reader
+package solutions.lightprocessing.storage.fs.reader
 
-import solutions.lightprocessing.domain.OperationType
 import groovy.json.JsonSlurper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.core.io.ResourceLoader
 import org.springframework.stereotype.Component
+import solutions.lightprocessing.storage.fs.domain.OperationType
 
 @Component
 class OperationTypeReader {
