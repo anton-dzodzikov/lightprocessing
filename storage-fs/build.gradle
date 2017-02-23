@@ -13,4 +13,13 @@ dependencies {
 
     testCompile "org.testng:testng:6.10"
     testCompile "org.mockito:mockito-core:2.7.6"
+    testCompile "org.springframework.boot:spring-boot-starter-test:1.5.1.RELEASE"
+}
+
+bootRepackage {
+    enabled = false
+}
+
+test {
+    useTestNG()
 }
