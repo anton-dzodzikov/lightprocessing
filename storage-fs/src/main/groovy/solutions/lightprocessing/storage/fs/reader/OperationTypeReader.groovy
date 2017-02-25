@@ -4,7 +4,7 @@ import groovy.json.JsonSlurper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.core.io.ResourceLoader
 import org.springframework.stereotype.Component
-import solutions.lightprocessing.storage.fs.domain.OperationType
+import solutions.lightprocessing.model.OperationType
 
 @Component
 class OperationTypeReader {

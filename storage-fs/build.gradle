@@ -8,6 +8,8 @@ apply plugin: "groovy"
 apply plugin: "org.springframework.boot"
 
 dependencies {
+    compile project (':common')
+    
     compile "org.codehaus.groovy:groovy-all:2.4.8"
     compile "org.springframework.boot:spring-boot-starter:1.5.1.RELEASE"
 
