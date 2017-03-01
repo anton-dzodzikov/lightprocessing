@@ -10,6 +10,6 @@ public class JerseyConfig extends ResourceConfig {
     }
 
     private void registerEndpoints() {
-        register("solutions.lightprocessing.controller");
+        packages("solutions.lightprocessing.controller");
     }
 }
