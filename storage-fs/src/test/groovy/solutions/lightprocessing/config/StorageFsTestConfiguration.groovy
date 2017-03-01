@@ -7,9 +7,9 @@ import solutions.lightprocessing.storage.fs.reader.OperationTypeReader
 
 @Configuration
 @ComponentScan("solutions.lightprocessing.storage.fs")
-class StorageFsConfiguration {
+class StorageFsTestConfiguration {
     @Bean
     OperationTypeReader operationTypeReader() {
-        new OperationTypeReader("file:src/main/resources/operation-types")
+        new OperationTypeReader("file:src/test/resources/operation-types")
     }
 }
