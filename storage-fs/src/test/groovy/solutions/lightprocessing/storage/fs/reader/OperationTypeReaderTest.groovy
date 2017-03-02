@@ -5,7 +5,7 @@ import org.springframework.test.context.ContextConfiguration
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests
 import org.testng.annotations.Test
 import solutions.lightprocessing.config.StorageFsTestConfiguration
-import solutions.lightprocessing.storage.fs.domain.OperationType
+import solutions.lightprocessing.model.OperationType
 
 import static org.testng.Assert.assertEquals
 
