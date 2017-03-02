@@ -1,15 +1,15 @@
 package solutions.lightprocessing.controller
 
-import org.springframework.stereotype.Component
+import org.springframework.stereotype.Controller
 
 import javax.ws.rs.GET
 import javax.ws.rs.Path
 
-@Component
+@Controller
 @Path("/info")
 class ServerInfoController {
     @GET
-    def version() {
+    String version() {
         return "dev";
     }
 }
