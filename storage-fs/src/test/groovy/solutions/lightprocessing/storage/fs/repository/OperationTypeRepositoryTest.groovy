@@ -1,7 +1,7 @@
 package solutions.lightprocessing.storage.fs.repository
 
 import org.testng.annotations.Test
-import solutions.lightprocessing.storage.fs.domain.OperationType
+import solutions.lightprocessing.model.OperationType
 import solutions.lightprocessing.storage.fs.reader.OperationTypeReader
 
 import static org.mockito.Mockito.mock

@@ -1,0 +1,19 @@
+buildscript {
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+    }
+}
+
+apply plugin: "groovy"
+apply plugin: "org.springframework.boot"
+
+dependencies {
+    compile project (":common")
+
+    compile "org.codehaus.groovy:groovy-all:2.4.8"
+    compile "org.springframework.boot:spring-boot-starter-jersey:1.5.1.RELEASE"
+}
+
+bootRepackage {
+    enabled = false
+}

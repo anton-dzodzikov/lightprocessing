@@ -1,4 +1,4 @@
-package solutions.lightprocessing.storage.fs.domain
+package solutions.lightprocessing.model
 
 class OperationType {
     String name

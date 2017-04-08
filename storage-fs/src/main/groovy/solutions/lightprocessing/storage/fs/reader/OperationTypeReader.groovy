@@ -3,7 +3,8 @@ package solutions.lightprocessing.storage.fs.reader
 import groovy.json.JsonSlurper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.core.io.ResourceLoader
-import solutions.lightprocessing.storage.fs.domain.OperationType
+import solutions.lightprocessing.model.OperationType
+
 
 class OperationTypeReader {
     final String pathToOperations
